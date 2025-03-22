@@ -16,8 +16,8 @@ bool external_heartbeat_active = false;
 void sendExternalHeartbeat() {
   
   // external_heartbeat_active~0~2~C~External Heartbeat Server enabled
-  // external_heartbeat_domain~~2~T~Heartbeat receiver domain or IP (i.e. www.mydomain.com)
-  // external_heartbeat_uri~~2~T~Heartbeat receiver URI (i.e. /my-esp32cam-hub/index.php)
+  // external_heartbeat_domain~~2~T~Heartbeat receiver domain or IP 
+  // external_heartbeat_uri~~2~T~Heartbeat receiver URI 
   // external_heartbeat_port~443~2~N~Heartbeat receiver port
   // external_heartbeat_token~~2~T~Heartbeat receiver auth token
   
