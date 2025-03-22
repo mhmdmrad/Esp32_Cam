@@ -27,8 +27,6 @@ bool autoUpload = false;  // Automatically upload every created file to remote f
 bool fsUse = false; // FTP if false, HTTPS if true
 
 
-/******************** HTTPS ********************/
-
 // Upload file of folder of files from local storage to remote HTTPS file server
 // Requires significant heap space due to TLS.
 // Each file POST has following format, where the following values are derived 
