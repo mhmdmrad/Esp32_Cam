@@ -1,11 +1,9 @@
 // mjpeg2sd app specific functions
-//
 // Direct access (HTTP) URLs for NVR:
 // - Video streaming: app_ip/sustain?video=1 
 // - Audio streaming: app_ip/sustain?audio=1
 // - Subtitle streaming: app_ip/sustain?srt=1
 // - Stills: app_ip/control?still=1
-//
 // s60sc 2022 - 2024
 
 #include "appGlobals.h"
