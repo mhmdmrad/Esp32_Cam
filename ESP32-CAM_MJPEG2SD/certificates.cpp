@@ -28,11 +28,11 @@
  If the private key or public certificate constants are empty, the Use HTTPS setting is ignored.
  
  Enter `https://static_ip` to access the app from the browser. A security warning will be displayed as the certificate is self signed so untrusted. To trust the certificate it needs to be installed on the device: 
- - open the Chrome settings page.
- - in the Privacy and security panel, expand the Security section, click on Manage certificates.
- - in the Certificates popup, select the Trusted Root Certification Authorities tab, click the Import... button to launch the Import Wizard.
- - click Next, on the next page, select Browse... and locate the cacert.pem file.
- - click Next, then Finish,then in the Security Warning popup, click on Yes and another popup indicates that the import was successful.
+ * open the Chrome settings page.
+ * in the Privacy and security panel, expand the Security section, click on Manage certificates.
+ * in the Certificates popup, select the Trusted Root Certification Authorities tab, click the Import... button to launch the Import Wizard.
+ * click Next, on the next page, select Browse... and locate the cacert.pem file.
+ * click Next, then Finish,then in the Security Warning popup, click on Yes and another popup indicates that the import was successful.
 
  s60sc 2023
  */
