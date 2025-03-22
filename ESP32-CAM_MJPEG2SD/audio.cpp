@@ -1,14 +1,11 @@
-//
 // Handle microphone input, and speaker output via amp.
 // The microphone input, and the output to amplifier, each make use of a
 // separate I2S peripheral in the ESP32 or ESP32S3.
 // I2S and PDM microphones are supported.
 // I2S amplifiers are supported.
-//
 // If using I2S mic and I2S amp, then the following pins should be set to same values:
 // - micSckPin = mampBckIo
 // - micSWsPin = mampSwsIo
-//
 // A browser microphone and on a PC or phone can be used:
 // - for VoiceChanger app, this is used instead of local mic
 //   - need to press PC Mic button before selecting an action
@@ -20,7 +17,6 @@
 // Chrome needs to allow access to mic from insecure (http) site:
 // Go to : chrome://flags/#unsafely-treat-insecure-origin-as-secure
 // Enter app URL in box: http://<app_ip_address>
-//
 // s60sc 2024
 
 #include "appGlobals.h"
