@@ -8,22 +8,22 @@
 // - 3 pin joystick 
 // - MY9221 based LED Bar, eg 10 segment Grove LED Bar
 // - 4 pin 28BYJ-48 Stepper Motor with ULN2003 Motor Driver
-//
+
 // Peripherals can be hosted directly on the client ESP, or on
 // a separate IO Extender ESP if the client ESP has limited free 
 // pins, eg ESP-Cam module
 // External peripherals should have low data rate and not require fast response,
 // so interrupt driven input pins should be monitored internally by the client.
 // Peripherals that need a clocked data stream such as microphones are not suitable
-//
+
 // Pin numbers must be > 0.
-//
+
 // The client and extender must be compiled with the same version of 
 // the peripherals.cpp and have compatible configuration settings
 // with respect to pin numbers etc
-//
+
 // s60sc 2022 - 2024
-//
+
 
 #include "appGlobals.h"
 
