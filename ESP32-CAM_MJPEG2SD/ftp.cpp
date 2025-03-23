@@ -1,5 +1,4 @@
 // Upload SD card or SPIFFS content to a remote server using FTP or HTTPS
-// 
 // s60sc 2022, 2023
 
 #include "appGlobals.h"
