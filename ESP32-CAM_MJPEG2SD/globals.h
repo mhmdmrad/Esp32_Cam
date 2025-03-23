@@ -214,7 +214,7 @@ void tgramAlert(const char* subject, const char* message);
 // externalHeartbeat.cpp
 void sendExternalHeartbeat();
 
-/******************** Global utility declarations *******************/
+/* Global utility declarations */
 
 extern char AP_SSID[];
 extern char AP_Pass[];
