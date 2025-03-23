@@ -54,7 +54,7 @@ uint8_t* motionJpeg = NULL;
 size_t motionJpegLen = 0;
 static uint8_t* currBuff = NULL;
 
-/**********************************************************************************/
+/*******************************************************************************************/
 
 static bool jpg2rgb(const uint8_t* src, size_t src_len, uint8_t* out, jpg_scale_t scale);
 
