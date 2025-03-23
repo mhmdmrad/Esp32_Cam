@@ -1,4 +1,3 @@
-// 
 // Photogrammetry uses photographs taken from various angles to collect data about a 3D object
 // that can converted by software to create a 3D image, eg for 3D printing a replica.
 // To enable photographs to be taken from different angles a turntable hosting the object can be rotated at intervals
