@@ -2,7 +2,6 @@
 // Support for MCPWM, eg for H-bridge motor controller
 //
 // s60sc 2024
-//
 
 /*
 MCPWM peripheral has 2 units, each unit can support:
