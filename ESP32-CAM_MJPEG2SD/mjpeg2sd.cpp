@@ -2,7 +2,6 @@
 * Capture ESP32 Cam JPEG images into a AVI file and store on SD
 * matches file writes to the SD card sector size.
 * AVI files stored on the SD card can also be selected and streamed to a browser.
-*
 * s60sc 2020, 2022, 2024
 */
 
@@ -81,7 +80,7 @@ bool stopPlayback = false; // controls if playback allowed
 bool timeLapseOn = false;
 static bool pirVal = false;
 
-/**************** timers & ISRs ************************/
+/* timers & ISRs */
 
 static void IRAM_ATTR frameISR() {
   // interrupt at current frame rate
