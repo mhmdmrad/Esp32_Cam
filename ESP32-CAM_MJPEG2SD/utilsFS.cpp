@@ -1,5 +1,5 @@
 // General purpose SD card and flash storage utilities
-//
+
 // Card can be accessed using a 1 data bit or 4 data bits (if allowed by board)
 // 4 data bits is potentially faster on ESP32S3 (depending on card spec) 
 // but requires 3 additional pins
