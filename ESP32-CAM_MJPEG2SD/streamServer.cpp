@@ -4,7 +4,7 @@
 // - video streaming uses task 1
 // - audio streaming uses task 2
 // - subtitle streaming uses task 3
-//
+
 // s60sc 2022 - 2025
 
 #include "appGlobals.h"
