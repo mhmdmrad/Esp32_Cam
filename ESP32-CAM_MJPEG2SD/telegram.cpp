@@ -4,12 +4,11 @@
 // - photo upload
 // - file upload (avoid using simultaneously with file upload via ftp, smtp, or browser)
 // Add custom processing to appSetupTelegram() in appSpecific.cpp
-//
+
 // Using ideas from:
 // - https://github.com/jameszah/ESP32-CAM-Video-Telegram
 // - https://github.com/cotestatnt/AsyncTelegram2
-// 
-//
+
 // s60sc 2023
 
 #include "appGlobals.h"
