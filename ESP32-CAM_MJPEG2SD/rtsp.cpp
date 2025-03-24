@@ -3,11 +3,11 @@
   // Initialize the RTSP server
   /**
    * @brief Initializes the RTSP server with the specified configuration.
-   * 
+   
    * This method can be called with specific parameters, or the parameters
    * can be set directly in the RTSPServer instance before calling begin().
    * If any parameter is not explicitly set, the method uses default values.
-   * 
+   
    * @param transport The transport type. Default is VIDEO_AND_SUBTITLES. Options are (VIDEO_ONLY, AUDIO_ONLY, VIDEO_AND_AUDIO, VIDEO_AND_SUBTITLES, AUDIO_AND_SUBTITLES, VIDEO_AUDIO_SUBTITLES).
    * @param rtspPort The RTSP port to use. Default is 554.
    * @param sampleRate The sample rate for audio streaming. Default is 0 must pass or set if using audio.
