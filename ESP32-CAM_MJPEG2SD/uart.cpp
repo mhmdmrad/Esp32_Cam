@@ -6,13 +6,12 @@
 // Connect auxiliary UART_RXD_PIN pin to client UART_TXD_PIN pin
 // Also connect a common GND
 // The UART id and pins used are defined using the web page
-//
+
 // The data exchanged consists of 8 bytes:
 // - 2 byte fixed header
 // - 1 byte command char
 // - 4 bytes are data of any type that fits in 32 bits or less
 // - 1 byte checksum
-//
 // Callbacks:
 // - setOutputPeripheral(): on Auxiliary, convert uint32_t data read from uart into appropriate output peripheral data type and write to peripheral
 // - getInputPeripheral(): on Auxiliary, read input peripheral and convert input data type to uint32_t to send over uart
