@@ -1,5 +1,5 @@
 // Provides web server for user control of app
-// 
+
 // s60sc 2022 - 2023
 
 #include "appGlobals.h"
