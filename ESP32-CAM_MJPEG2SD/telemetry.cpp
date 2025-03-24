@@ -1,4 +1,3 @@
-//
 // Telemetry data recorded to storage during camera recording
 // Formatted as CSV file for presentation in spreadsheet
 // and as a SRT file to provide video subtitles when used with a media player
