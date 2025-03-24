@@ -1,8 +1,7 @@
 
 /* 
   Management and storage of application configuration state.
-  Configuration file stored on flash or SD, except passwords which are stored in NVS
-   
+  Configuration file stored on flash or SD, except passwords which are stored in NVS 
   Workflow:
   loadConfig:
     file -> loadConfigVect+loadKeyVal -> vector -> getNextKeyVal+updatestatus+updateAppStatus -> vars 
@@ -11,8 +10,7 @@
     vector -> buildJsonString+buildAppJsonString -> browser 
   controlHandler: 
     browser -> updateStatus+updateAppStatus -> updateConfigVect -> vector -> saveConfigVect -> file 
-                                            -> vars
-                                            
+                                            -> vars                                        
   config field types:
   - T : Text
   - N : Number
