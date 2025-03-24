@@ -5,7 +5,7 @@
 // - remote logging
 // - base64 encoding
 // - device sleep
-//
+
 // s60sc 2021, 2023
 // some functions based on code contributed by gemi254
 
@@ -27,7 +27,7 @@ int wakePin; // if wakeUse is true
 bool wakeUse = false; // true to allow app to sleep and wake
 char* jsonBuff = NULL;
 
-/************************** Wifi **************************/
+/**Wifi**/
 
 #include <esp_task_wdt.h>
  
