@@ -1,13 +1,13 @@
 
 // Simple SMTP client for sending email message with attachment
-//
+
 // Only tested with Gmail sender account 
-//
+
 // Prereqs for Gmail sender account:
 // - recommended to create a dedicated email account
 // - create an app password - https://support.google.com/accounts/answer/185833
 // - set smtpUse in web config page to true, and enter account details on web page
-//
+
 // s60sc 2022 
 
 #include "appGlobals.h"
