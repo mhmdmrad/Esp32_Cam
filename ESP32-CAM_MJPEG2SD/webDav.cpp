@@ -11,18 +11,6 @@
       - Click “Next” and then “Choose a custom network location.”
       - Re-enter \\<ip_address>\webdav
 
-    Android:
-    - Solid Explorer, enter <ip_address> for Remote host name, webdav for Path
-
-  Not tested:
-    MacOS:
-    - Finder: command-K > http://<ip_address>/webdav (do not select anonymous to have write access)
-    - cmdline: mkdir -p /tmp/esp; mount_webdav -S -i -v esp32 <ip_address>/webdav /tmp/esp && echo OK
- 
-    linux:
-    - mount -t davs2 http://<ip_address>/webdav /mnt/
-    - gio/gvfs/nautilus/YourFileExplorer http://<ip_address>/webdav
-
   Uses ideas from https://github.com/d-a-v/ESPWebDAV
    
   s60sc 2024
