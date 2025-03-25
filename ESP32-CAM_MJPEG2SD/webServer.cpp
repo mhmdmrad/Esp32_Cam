@@ -120,7 +120,7 @@ static esp_err_t indexHandler(httpd_req_t* req) {
     httpd_resp_set_type(req, "text/html");
     httpd_resp_set_hdr(req, "Content-Encoding", "gzip");
     return httpd_resp_send(req, (const char*)setupPage_html_gz, setupPage_html_gz_len);
-  } else if (!checkAuth(req)) return ESP_OK; // check if authentication required & passed
+  } else if (!checkAuth(req)) return ESP_OK; // check if authentication required and passed
 
 
   return fileHandler(req);
