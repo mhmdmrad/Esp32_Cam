@@ -507,3 +507,5 @@ This will show an extra config button **PG Config**. Pressing this button will b
 This feature can make use of an [Auxiliary Board](#auxiliary-board).  
 
 See `photogram.cpp` for more information. To incorporate, set `#define INCLUDE_PGRAM` to `true`
+
+/
