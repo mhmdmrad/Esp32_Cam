@@ -6,6 +6,7 @@
 // - Stills: app_ip/control?still=1
 // s60sc 2022 - 2024
 
+
 #include "appGlobals.h"
 
 static char variable[FILE_NAME_LEN]; 
