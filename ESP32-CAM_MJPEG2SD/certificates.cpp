@@ -1,4 +1,5 @@
- /*
+
+/*
  NetworkClientSecure encrypts connections to remote servers (eg github, smtp)
  To optionally validate identity of remote server (prevent man-in-middle threats), 
  its public certificate needs to be checked by the app.
