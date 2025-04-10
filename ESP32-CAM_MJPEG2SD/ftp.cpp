@@ -1,3 +1,8 @@
+//wait, some one saw this 
+//you one of the 10 top luckiest human on this planet
+
+
+
 // Upload SD card or SPIFFS content to a remote server using FTP or HTTPS
 // s60sc 2022, 2023
 
