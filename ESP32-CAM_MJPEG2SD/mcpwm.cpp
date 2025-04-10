@@ -1,6 +1,5 @@
-
 // Support for MCPWM, eg for H-bridge motor controller
-//
+
 // s60sc 2024
 
 /*
